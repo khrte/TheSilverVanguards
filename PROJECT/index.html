@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>COLOR FIGHT</title>
+	
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+
+
+	<!-- Sitewide CSS -->
+		<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab8 only CSS -->
+		<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<!-- jQuery library simplifies JS -->
+		<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link JS - DEFER waits until all elements are rendered -->
+		<script type="text/javascript" src="./js/lab.js" DEFER></script>
+
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="winbox"></div>
+		<div id="box">
+
+			<div id="header">
+				<h1 id="title"><img class="headerimg" src="img/stars.gif"> COLOR BATTLE <img class="headerimg" src="img/stars.gif"></h1>
+			</div>
+
+			<!-- Box for picking color 1 and displaying its stats  -->
+			<div id="side">
+				<div class="sidebox">
+					<div class="subheader">Color 1</div>
+					<div class="sidecontent"></div>
+					<div class="sidecontent2"></div>
+					
+				</div>
+			</div>
+
+			<!-- box for picking color 2 and displaying its stats  -->
+			<div id="main">
+				<div class="mainboxes">
+					<div class="subheader">Color 2</div>
+					<div class="mainboxescontent"></div>
+					<div class="mainboxescontent2"></div>
+				</div>
+			</div>
+
+			<!-- removed #output section because it served no purpose.  -->
+
+			<!-- for displaying the winner in  -->
+					<!-- need to format winbox correctly.  -->
+			<!--<div id="winbox"></div>-->
+
+
+			<!-- where the fight button goes  -->
+			<div id="footer">
+				<button class="button">
+					<h2> FIGHT! </h2>
+				</button>
+
+				<div id="log">
+					<p></p>
+				</div>
+				<!-- paragraph potentially for logs of fight.  -->
+					
+			</div>
+
+
+			<!-- no div for her because she belongs at the bottom of the page. OUT OF SIGHT!!  -->
+			<nav id="links">
+				<a href="../index.html">>Go Back  <img src="https://pixels.crd.co/assets/images/gallery64/98136565.gif?v=99d3974e"></a>
+			</nav>
+			
+
+</body>
+</html>
